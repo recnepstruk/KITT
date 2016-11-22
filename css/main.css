@@ -1,0 +1,59 @@
+/********************************************
+                Dropdown
+*********************************************/
+
+.dropdown {
+    /*color: #FF0092;*/
+    /*font-family: 'Audiowide', cursive;*/
+    /*font-size: 30px;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    /*text-shadow: 0 0 12px rgba(186, 1, 255, 0.8);*/
+
+}
+
+.myButton {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    width: 100px;
+    /*text-decoration: none;*/
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    /*color: ; */
+    /*text-decoration: none;*/
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.div-list {
+    background-color: rgba(255, 0, 146, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!-- ng-app="module.app" -->
+
+<head>
+    <title> KITT 2016 </title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- <script src="/js/module.app.js"></script> -->
+    <script src="/js/annyang.min.js"></script>
+    <script src="/js/myAnnyang.js"></script>
+</head>
+
+<body>
+    <ng-view></ng-view>
+
+
+    <div id='kitt'>
+        <div class='one'></div>
+        <div class='two'></div>
+        <div class='three'></div>
+        <div class='four'></div>
+        <div class='five'></div>
+        <div class='six'></div>
+        <div class='seven'></div>
+        <div class='eight'></div>
+        <div class='nine'></div>
+        <div class='ten'></div>
+    </div>
+
+    <div class="grid"></div>
+    <p class="eightys-text">
+        <div class="dropdown">
+            <!-- KITTS command list -->
+            <button class="myButton dropdown-toggle" type="button" data-toggle="dropdown">Commands<span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu">
+                    <div class="div-list">
+                        <li>Play my favorite song</li>
+                        <li>Ok Pause</li>
+                        <li>Wake up KITT</li>
+                    </div>
+                </ul>
+        </div>
+    </p>
+
+
+</body>
+
+</html>
