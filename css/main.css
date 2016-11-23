@@ -2,48 +2,82 @@
                 Dropdown
 *********************************************/
 
-.dropdown {
-    /*color: #FF0092;*/
-    /*font-family: 'Audiowide', cursive;*/
-    /*font-size: 30px;*/
-    position: absolute;
+.dropdown { /*DIV*/
+
+/*    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
     height: 80px;
-    margin: auto;
-    /*text-shadow: 0 0 12px rgba(186, 1, 255, 0.8);*/
+    margin: auto;*/
+}
 
+.myButton:hover {
+    background: yellow;
 }
 
 .myButton {
-    background-color: black;
-    color: white;
+    background-color: #dadd1f;
+    color: black;
     padding: 2px;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 100px;
-    /*text-decoration: none;*/
 }
 
-.btn.focus, .btn:focus, .btn:hover {
-    /*color: ; */
-    /*text-decoration: none;*/
-}
 
 .dropdown-menu {
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
-    top: 70%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-
 .div-list {
-    background-color: rgba(255, 0, 146, 1);
+    background-color: #dadd1f;
+    -webkit-box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
 
+
+
+/********************************************
+                Turbo Button
+*********************************************/
+
+.round-button {
+    display:block;
+    width:60px;
+    height:60px;
+    line-height:55px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:black;
+    text-align:center;
+    text-decoration: none;
+    background: #cc0000;
+    box-shadow: 0 0 3px gray;
+    font-size:15px;
+    font-weight:bold;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;
+
+}
+.round-button:hover {
+    background: red;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -56,4 +90,4 @@
 
 
 
-
+/**/

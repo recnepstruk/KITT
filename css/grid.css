@@ -8,13 +8,9 @@
 body {
     background: linear-gradient(black, #5e1443);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-}
-
-body {
     background-color: #5e1443;
-    overflow: hidden;
 }
 
 .grid {
@@ -23,7 +19,7 @@ body {
     left: -400px;
     right: -400px;
     position: absolute;
-    background-image: linear-gradient(#FF0092 1px, transparent 2px), linear-gradient(90deg, #FF0092 1px, transparent 2px);
+    background-image: linear-gradient(red 1px, transparent 2px), linear-gradient(90deg, red 1px, transparent 2px);
     background-size: 3% 3%, 3% 3%;
     background-position: 0 0, 0 0;
     transform: perspective(300px) rotateX(80deg);
@@ -45,7 +41,7 @@ body {
 }
 
 .grid {
-    animation: throughSpace 1.5s linear;
+    animation: throughSpace 2s linear;
     animation-iteration-count: infinite;
 }
 
