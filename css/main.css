@@ -2,18 +2,6 @@
                 Dropdown
 *********************************************/
 
-.dropdown { /*DIV*/
-
-/*    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    height: 80px;
-    margin: auto;*/
-}
-
 .myButton:hover {
     background: yellow;
 }
@@ -29,17 +17,16 @@
 
 .dropdown-menu {
     background-color: rgba(255, 255, 255, 0);
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*position: absolute;*/
+
+    /*transform: translate(-50%, -50%);*/
 }
 
 .div-list {
-    background-color: #dadd1f;
-    -webkit-box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
-    -moz-box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
-    box-shadow: inset 0px 0px 9px 3px rgba(0, 0, 0, 1);
+    background-color: yellow;
+    /*-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 1);*/
+    /*-moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 1);*/
+    /*box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 1);*/
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     padding: 15px;
@@ -80,6 +67,9 @@
     color: black;
 }
 
+.round-button:focus {
+  outline: none;
+}
 
 
 

@@ -41,7 +41,7 @@ body {
 }
 
 .grid {
-    animation: throughSpace 2s linear;
+    animation: throughSpace 3s linear;
     animation-iteration-count: infinite;
 }
 

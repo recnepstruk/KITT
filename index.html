@@ -37,7 +37,7 @@
         <div class='ten'></div>
     </div>
 
-    <div class="grid"></div>
+    <div class="grid" id="d"></div>
     <p class="eightys-text">
         <div class="dropdown">
             <!-- KITTS command list -->
@@ -53,8 +53,10 @@
                 </ul>
         </div>
     </p>
-    <button class="round-button" onmouseenter="play()">TURBO</button>
-    <audio id="turbo" src="/sounds/donttouch.wav" ></audio>
+
+    <button class="round-button" onmouseenter="play()" onclick="speedUp(); peelOut();">TURBO</button>
+    <audio id="increase" src="/sounds/ferrari.mp3"></audio>
+    <audio id="turbo"    src="/sounds/donttouch.wav"></audio>
 
 </body>
 
