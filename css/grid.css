@@ -43,6 +43,7 @@ body {
 .grid {
     animation: throughSpace 3s linear;
     animation-iteration-count: infinite;
+    animation-timing-function: none;
 }
 
 @keyframes throughSpace {
