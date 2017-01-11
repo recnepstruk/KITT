@@ -20,9 +20,6 @@
 </head>
 
 <body>
-    <ng-view></ng-view>
-
-
     <div id='kitt'>
         <div class='one'></div>
         <div class='two'></div>
@@ -35,33 +32,12 @@
         <div class='nine'></div>
         <div class='ten'></div>
     </div>
-
     <div class="grid" id="d"></div>
-    <p class="eightys-text">
-        <div class="dropdown">
-            <!-- KITTS command list -->
-            <button class="myButton dropdown-toggle" type="button" data-toggle="dropdown">Commands<span class="caret"></span>
-            </button>
-                <ul class="dropdown-menu">
-                    <div class="div-list">
-                        <li>Wake up!</li>
-                        <li>Who are you?</li>
-                        <li>Hello KITT!</li>
-                        <li>Play my favorite song</li>
-                        <li>Shutup KITT!</li>
-                        <li>Are you even listening?</li>
-                        <li>Slow down KITT!</li>
-                        <li>Play music</li>
-                        <li>Stop music</li>
-                    </div>
-                </ul>
-        </div>
-    </p>
 
+    <div class="title"><img src="knightrider.png"></div>
     <button class="round-button" onmouseenter="play()" onclick="speedUp(); peelOut();">TURBO</button>
     <audio id="increase" src="/sounds/ferrari.mp3"></audio>
-    <audio id="turbo"    src="/sounds/donttouch.wav"></audio>
-
+    <audio id="turbo" src="/sounds/donttouch.wav"></audio>
 </body>
 
 </html>
